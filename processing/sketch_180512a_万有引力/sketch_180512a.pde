@@ -46,4 +46,6 @@ void draw() {
     particles[i].draw();
     particles[i].throughWalls();
   }
+   /* 描画処理  */
+saveFrame("frames/######.tif");
 }
